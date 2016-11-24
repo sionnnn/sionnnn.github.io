@@ -5,7 +5,7 @@
       <property name="group" value=""></property>
       <property name="tags" value="test"></property>
     </properties>
-    <testcase name="SearchForShepardsBush" time="7.709" failure="0" errors="0" assertions="2">
+    <testcase name="Search for Shepards Bush" time="7.709" failure="0" errors="0" assertions="2">
       <pass message="Url:http://www.think.eu// expected after 37 milliseconds.">Url:http://www.think.eu// expected after 37 milliseconds.</pass>
       <pass message="Element &lt;body&gt; was visible after 127 milliseconds.">Element &lt;body&gt; was visible after 127 milliseconds.</pass>
     </testcase>
