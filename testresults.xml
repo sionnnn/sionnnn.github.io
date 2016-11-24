@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <testsuites>
-  <test-suite name="SearchForFilm" hostname="" tests="1" errors="0" failures="0" time="9.956" timestamp="Thu, 24 Nov 2016 11:24:08 GMT" skipped="0">
+  <test-suite name="#11994-SearchforFilm" hostname="" tests="1" errors="0" failures="0" time="8.055" timestamp="Thu, 24 Nov 2016 11:27:49 GMT" skipped="0">
     <properties>
       <property name="group" value=""></property>
       <property name="tags" value="test"></property>
     </properties>
-    <testcase name="SearchForFantasticBeasts" time="9.956" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 25 milliseconds.">Url:http://www.think.eu// expected after 25 milliseconds.</pass>
-      <pass message="Element &lt;body&gt; was visible after 139 milliseconds.">Element &lt;body&gt; was visible after 139 milliseconds.</pass>
+    <testcase name="SearchForFantasticBeasts" time="8.055" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 20 milliseconds.">Url:http://www.think.eu// expected after 20 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 117 milliseconds.">Element &lt;body&gt; was visible after 117 milliseconds.</pass>
     </testcase>
   </test-suite>
-  <test-suite name="SearchForOffer" hostname="" tests="1" errors="0" failures="0" time="7.074" timestamp="Thu, 24 Nov 2016 11:24:18 GMT" skipped="0">
+  <test-suite name="SearchForCinema" hostname="" tests="1" errors="0" failures="0" time="6.187" timestamp="Thu, 24 Nov 2016 11:27:57 GMT" skipped="0">
     <properties>
       <property name="group" value=""></property>
       <property name="tags" value="test"></property>
     </properties>
-    <testcase name="SearchForSuperTuesday" time="7.074" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 22 milliseconds.">Url:http://www.think.eu// expected after 22 milliseconds.</pass>
-      <pass message="Element &lt;body&gt; was visible after 76 milliseconds.">Element &lt;body&gt; was visible after 76 milliseconds.</pass>
+    <testcase name="#11992 - Search for Cinema" time="6.187" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 26 milliseconds.">Url:http://www.think.eu// expected after 26 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 72 milliseconds.">Element &lt;body&gt; was visible after 72 milliseconds.</pass>
+    </testcase>
+  </test-suite>
+  <test-suite name="SearchForOffer" hostname="" tests="1" errors="0" failures="0" time="6.508" timestamp="Thu, 24 Nov 2016 11:28:03 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForSuperTuesday" time="6.508" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 15 milliseconds.">Url:http://www.think.eu// expected after 15 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 68 milliseconds.">Element &lt;body&gt; was visible after 68 milliseconds.</pass>
     </testcase>
   </test-suite>
 </testsuites>
