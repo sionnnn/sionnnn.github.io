@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <test-results name="C:\Projects\SmokeTestWebDriver\SmokeTestWebDriver\bin\Debug\SmokeTestWebDriver.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-03-23" time="10:53:20">
 	<environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4963" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="COMPUTER" user="user" user-domain="DOMAIN"/>
 	<culture-info current-culture="en-GB" current-uiculture="en-US"/>
