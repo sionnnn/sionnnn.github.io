@@ -1,20 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <testsuites>
-<test-suite name="[iOS]Search" hostname="" tests="3" errors="0" failures="0" time="10.31" timestamp="Thu, 24 Nov 2016 11:16:29 GMT" skipped="0">
-<properties>
-<property name="group" value=""/>
-<property name="tags" value="test"/>
-</properties>
-<testcase name="SearchForCinema" time="8.892" failure="0" errors="0" assertions="2">
-<pass message="Url:http://www.think.eu// expected after 20 milliseconds.">
-Url:http://www.think.eu// expected after 20 milliseconds.
-</pass>
-<pass message="Element <body> was visible after 125 milliseconds.">Element <body> was visible after 125 milliseconds.</pass>
-</testcase>
-<testcase name="SearchForFilm" time="0.05400" failure="0" errors="0" assertions="1">
-<pass message="Element <body> was visible after 50 milliseconds.">Element <body> was visible after 50 milliseconds.</pass>
-</testcase>
-<testcase name="SearchForOffer" time="1.367" failure="0" errors="0" assertions="1">
-<pass message="Element <body> was visible after 46 milliseconds.">Element <body> was visible after 46 milliseconds.</pass>
-</testcase>
-</test-suite>
+  <test-suite name="[iOS]Search" hostname="" tests="3" errors="0" failures="0" time="10.31" timestamp="Thu, 24 Nov 2016 11:16:29 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForCinema" time="8.892" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 20 milliseconds.">Url:http://www.think.eu// expected after 20 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 125 milliseconds.">Element &lt;body&gt; was visible after 125 milliseconds.</pass>
+    </testcase>
+    <testcase name="SearchForFilm" time="0.05400" failure="0" errors="0" assertions="1">
+      <pass message="Element &lt;body&gt; was visible after 50 milliseconds.">Element &lt;body&gt; was visible after 50 milliseconds.</pass>
+    </testcase>
+    <testcase name="SearchForOffer" time="1.367" failure="0" errors="0" assertions="1">
+      <pass message="Element &lt;body&gt; was visible after 46 milliseconds.">Element &lt;body&gt; was visible after 46 milliseconds.</pass>
+    </testcase>
+  </test-suite>
 </testsuites>
