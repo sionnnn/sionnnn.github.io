@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <testsuites>
-  <test-suite name="SearchForCinema" hostname="" tests="3" errors="0" failures="0" time="10.31" timestamp="Thu, 24 Nov 2016 11:16:29 GMT" skipped="0">
+  <test-suite name="SearchForFilm" hostname="" tests="1" errors="0" failures="1" time="21.01" timestamp="Thu, 24 Nov 2016 11:20:52 GMT" skipped="0">
     <properties>
       <property name="group" value=""></property>
       <property name="tags" value="test"></property>
     </properties>
-    <testcase name="SearchForCinema" time="8.892" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 20 milliseconds.">sdf.</pass>
-      <pass message="Element body was visible after 125 milliseconds.">sdf</pass>
+    <testcase name="SearchForFantasticBeasts" time="21.01" failure="1" errors="0" assertions="2">
+      <failure message="Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients">Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients</failure>
+      <pass message="Element &lt;body&gt; was visible after 120 milliseconds.">Element &lt;body&gt; was visible after 120 milliseconds.</pass>
+    </testcase>
+  </test-suite>
+  <test-suite name="SearchForOffer" hostname="" tests="1" errors="0" failures="1" time="17.58" timestamp="Thu, 24 Nov 2016 11:21:14 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForSuperTuesday" time="17.58" failure="1" errors="0" assertions="2">
+      <failure message="Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients">Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients</failure>
+      <pass message="Element &lt;body&gt; was visible after 61 milliseconds.">Element &lt;body&gt; was visible after 61 milliseconds.</pass>
     </testcase>
   </test-suite>
 </testsuites>
