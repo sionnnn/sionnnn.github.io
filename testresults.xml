@@ -1,21 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<testsuites>
-  <test-suite name="Search" hostname="" tests="3" errors="0" failures="0" time="6.508" timestamp="Thu, 24 Nov 2016 11:28:03 GMT" skipped="0">
-    <properties>
-      <property name="group" value=""></property>
-      <property name="tags" value="test"></property>
-    </properties>
-    <testcase name="SearchForOffer" time="6.508" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 15 milliseconds.">Url:http://www.think.eu// expected after 15 milliseconds.</pass>
-      <pass message="Element &lt;body&gt; was visible after 68 milliseconds.">Element &lt;body&gt; was visible after 68 milliseconds.</pass>
-    </testcase>
-    <testcase name="SearchForCinema" time="6.187" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 26 milliseconds.">Url:http://www.think.eu// expected after 26 milliseconds.</pass>
-      <pass message="Element &lt;body&gt; was visible after 72 milliseconds.">Element &lt;body&gt; was visible after 72 milliseconds.</pass>
-    </testcase>
-    <testcase name="SearchforFilm" time="8.055" failure="0" errors="0" assertions="2">
-      <pass message="Url:http://www.think.eu// expected after 20 milliseconds.">Url:http://www.think.eu// expected after 20 milliseconds.</pass>
-      <pass message="Element &lt;body&gt; was visible after 117 milliseconds.">Element &lt;body&gt; was visible after 117 milliseconds.</pass>
-    </testcase>
-  </test-suite>
-</testsuites>
+<test-results name="C:\Projects\SmokeTestWebDriver\SmokeTestWebDriver\bin\Debug\SmokeTestWebDriver.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-03-23" time="10:53:20">
+	<environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4963" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="COMPUTER" user="user" user-domain="DOMAIN"/>
+	<culture-info current-culture="en-GB" current-uiculture="en-US"/>
+	<test-suite type="Assembly" name="c:/path" executed="True" result="Success" success="True" time="0" asserts="0">
+		<results>
+			<test-case name="SearchForOffer" executed="True" result="Success" success="True" time="1" asserts="1"/>
+			<test-case name="SearchForCinema" executed="True" result="Success" success="True" time="2" asserts="1"/>
+			<test-case name="SearchforFilm" executed="True" result="Failure" success="False" time="3" asserts="1"/>
+		</results>
+	</test-suite>
+</test-results>
