@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <testsuites>
-  <test-suite name="[iOS]Search" hostname="" tests="3" errors="0" failures="0" time="10.31" timestamp="Thu, 24 Nov 2016 11:16:29 GMT" skipped="0">
+  <test-suite name="Search" hostname="" tests="3" errors="0" failures="0" time="10.31" timestamp="Thu, 24 Nov 2016 11:16:29 GMT" skipped="0">
     <properties>
       <property name="group" value=""></property>
       <property name="tags" value="test"></property>
