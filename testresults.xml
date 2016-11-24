@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<testsuites>
+  <test-suite name="SearchForCinema" hostname="" tests="1" errors="0" failures="0" time="7.709" timestamp="Thu, 24 Nov 2016 10:50:27 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForShepardsBush" time="7.709" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 37 milliseconds.">Url:http://www.think.eu// expected after 37 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 127 milliseconds.">Element &lt;body&gt; was visible after 127 milliseconds.</pass>
+    </testcase>
+  </test-suite>
+  <test-suite name="SearchForFilm" hostname="" tests="1" errors="0" failures="0" time="6.550" timestamp="Thu, 24 Nov 2016 10:50:35 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForFantasticBeasts" time="6.550" failure="0" errors="0" assertions="2">
+      <pass message="Url:http://www.think.eu// expected after 19 milliseconds.">Url:http://www.think.eu// expected after 19 milliseconds.</pass>
+      <pass message="Element &lt;body&gt; was visible after 78 milliseconds.">Element &lt;body&gt; was visible after 78 milliseconds.</pass>
+    </testcase>
+  </test-suite>
+  <test-suite name="SearchForOffer" hostname="" tests="1" errors="0" failures="1" time="17.18" timestamp="Thu, 24 Nov 2016 10:50:41 GMT" skipped="0">
+    <properties>
+      <property name="group" value=""></property>
+      <property name="tags" value="test"></property>
+    </properties>
+    <testcase name="SearchForSuperTuesday" time="17.18" failure="1" errors="0" assertions="2">
+      <failure message="Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients">Timed out while waiting for url after 10000 milliseconds. url:http://www.think.eu// value:http://www.think.eu//#clients</failure>
+      <pass message="Element &lt;body&gt; was visible after 115 milliseconds.">Element &lt;body&gt; was visible after 115 milliseconds.</pass>
+    </testcase>
+  </test-suite>
+</testsuites>
